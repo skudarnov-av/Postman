@@ -10,7 +10,7 @@ public class TestPostman {
     void shouldSendReRequestBody() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("one.two.1989")
+                .body("15.07.1989")
 
                 .when()
                 .post("/post")
